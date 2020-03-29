@@ -8,12 +8,13 @@ with open("README.md", "r") as fh:
 setup(
   name = 'nmcbins',         # How you named your package folder (MyLib)
   packages = ['nmcbins'],   # Chose the same as "name"
-  version = '0.2',      # Start with a small number and increase it with every change you make
+  version = '0.5',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Provides API Access to NMC BINS web service',   # Give a short description about your library
   #long_description = "This package is for programmatically accessing NMC BINS web service",
   long_description = long_description,
   long_description_content_type="text/markdown",
+  include_package_data=True,
   author = 'NMC Corp',                   # Type in your name
   author_email = 'bins_dev@nmcomputing.com',      # Type in your E-Mail
   url = 'https://github.com/nmcbins/nmc_bins_python_top',   # Provide either the link to your github or to your website

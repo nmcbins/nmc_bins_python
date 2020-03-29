@@ -1,3 +1,7 @@
 # nmc_bins_python
+nmcbins:
 
-README file
+Neuronmap Computing - Bot Input Normalization Service.
+
+It is a free language filtering service for bot developers or bot owners.
+

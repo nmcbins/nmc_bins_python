@@ -1,6 +1,6 @@
 .idea/
 *.pyc
-nmc_bins_python.egg-info/
+dist/
 
 
 
