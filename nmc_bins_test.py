@@ -1,5 +1,6 @@
-from nmc_bins_python import nmc_bins as bins
-qid='LJdHrbt59Us'
+#from nmcbins import nmc_bins as bins
+import nmcbins as bins
+qid='p7INVIHYDQM'
 bins.setQid(qid)
 
 text_to_process = 'a male b'

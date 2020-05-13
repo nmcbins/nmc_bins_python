@@ -2,8 +2,8 @@
 import requests
 import json
 nmc_ln_host_session = None
-#nmc_ln_host = "http://www.nmcomputing.com"
-nmc_ln_host = "http://192.168.1.66"
+nmc_ln_host = "http://www.nmcomputing.com"
+#nmc_ln_host = "http://192.168.1.66"
 qid = None
 
 def setQid(_qid):
